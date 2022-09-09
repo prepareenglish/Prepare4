@@ -1,0 +1,242 @@
+.netex-audio-player{
+	position: relative;
+}
+.netex-audio-container{
+	position: relative;
+	height: 1px;
+	width: 1px;
+}
+.netex-audio-player audio{
+	width: 100%;
+	height: 37px;
+	position: absolute;
+	top: 0;
+    left: 0;
+    vertical-align: bottom;
+}
+.netex-audio-player canvas{
+	width: 100%;
+	top: 0;
+    left: 0;
+    vertical-align: bottom;
+}
+.netex-audio-controls{
+	height: 29px;
+	width: 100%;
+	background-color: #1b1b1b;
+	overflow: hidden;
+}
+
+
+
+
+
+.netex-audio-progress-bar-container{
+	position: relative;
+	height: 8px;
+	background-color: #444;
+}
+.netex-audio-progress-bar{
+	bottom: 0;
+	left: 0;
+	overflow: visible;
+	position: absolute;
+	width: 0;
+	height: 8px;
+	background-color: #777;
+	cursor:pointer;
+}
+.netex-audio-progress-bar-inner{
+	position:relative;
+	width: 0;
+	height: 8px;
+	background-color: #db2a3a;
+}
+.netex-audio-controls-item{
+	margin-left: 12px;
+	width: 29px;
+	height: 27px;
+	background-image: url(sprite_reproductor_audio.T5NRpH65);
+}
+.netex-audio-button-play-pause-restart{
+	float: left;
+	cursor: pointer;
+	margin-top: 1px;
+}
+.netex-audio-button-play{
+	background-position: 0 0;
+}
+.netex-audio-button-play:hover{
+	background-position: 0 -27px;
+}
+.netex-audio-button-pause{
+	background-position: -29px 0;
+}
+.netex-audio-button-pause:hover{
+	background-position: -29px -27px;
+}
+.netex-audio-button-restart{
+	background-position: -58px 0;
+}
+.netex-audio-button-restart:hover{
+	background-position: -58px -27px;
+}
+.netex-audio-volume-control{
+	float: left;
+	cursor: pointer;
+	height: 27px;
+	margin-top: 1px;
+}
+.netex-audio-volume-control:hover .netex-audio-volume-panel{
+	width: 60px;
+}
+.netex-audio-volume-button{
+	margin-left:0;
+	display: inline-block;
+}
+.netex-audio-volume-mute{
+	background-position: -87px 0;
+}
+.netex-audio-volume-mute:hover{
+	background-position: -87px -27px;
+}
+.netex-audio-volume-small{
+	background-position: -116px 0;
+}
+.netex-audio-volume-small:hover{
+	background-position: -116px -27px;
+}
+.netex-audio-volume-medium{
+	background-position: -145px 0;
+}
+.netex-audio-volume-medium:hover{
+	background-position: -145px -27px;
+}
+.netex-audio-volume-large{
+	background-position: -174px 0;
+}
+.netex-audio-volume-large:hover{
+	background-position: -174px -27px;
+}
+.netex-audio-volume-panel{
+	width: 0;
+	height: 27px;
+	display: inline-block;
+	overflow: hidden;
+}
+.netex-audio-volume-slider{
+	width: 51px;
+	display: block;
+	overflow: hidden;
+	position: relative;
+	height: 7px;
+	margin-top: 11px;
+	margin-bottom: 9px;
+	background-color: #757575;
+}
+.netex-audio-volume-slider-foreground{
+	position:absolute;
+	display:block;
+	height: 7px;
+	width: 50%;
+	background-color: #db2a3a;
+}
+.netex-audio-time-container{
+	float: left;
+	font-family: Arial, Helvetica;
+	font-size: 11px;
+	line-height: 27px;
+	height: 27px;
+	margin-top: 1px;
+}
+.netex-audio-time-current{
+	color:#ddd;
+	vertical-align: middle;
+}
+.netex-audio-time-separator, .netex-audio-time-duration{
+	color: #777;
+	vertical-align: middle;
+}
+
+.android .netex-audio-volume-control, .ios .netex-audio-volume-control{
+	display: none;
+}
+@media screen and (max-width: 480px) {
+	.netex-audio-volume-control{
+		display:none;
+	}
+}
+
+
+/********************audio simple ****************/
+.audioSimple{
+	width:30px;
+    height:30px;
+    background-image: url('lc_play_audio_sprite.T5NRpH65');
+    background-position: 0 0;
+    float:left;
+    margin-left: 0;
+    margin-right: 10px;
+    margin-top:-5px;
+}
+
+.audioSimple.paragraph{
+	margin-top:5px;
+}
+.audioSimple .netex-audio-player{
+	
+	position: relative;
+	
+}
+.audioSimple .netex-audio-container{
+	position: relative;
+	height: 1px;
+	width: 1px;
+}
+.audioSimple .netex-audio-player audio{
+	width: 100%;
+	height: 37px;
+	position: absolute;
+	top: 0;
+    left: 0;
+    vertical-align: bottom;
+}
+.audioSimple .netex-audio-player canvas{
+	width: 100%;
+	top: 0;
+    left: 0;
+    vertical-align: bottom;
+}
+.audioSimple .netex-audio-controls{
+	height: 30px;
+	width: 30px;
+	background-color: transparent;
+	overflow: hidden;
+}
+
+
+.audioSimple .netex-audio-controls-item{
+	margin-left: 0px;
+	width: 30px;
+	height: 30px;
+	background-image: url(lc_play_audio_sprite.T5NRpH65);
+}
+.audioSimple .netex-audio-button-play-pause-restart{
+	float: left;
+	cursor: pointer;
+	margin-top: 0px;
+}
+.audioSimple .netex-audio-button-play,.audioSimple .netex-audio-button-restart{
+	background-position: 0 0;
+}
+.audioSimple .netex-audio-button-play:hover,.audioSimple .netex-audio-button-restart:hover{
+	background-position: -30px -30px;
+}
+.audioSimple .netex-audio-button-pause{
+	background-position: -60px 0;
+}
+.audioSimple .netex-audio-button-pause:hover{
+	background-position: -90px 0;
+}
+
+

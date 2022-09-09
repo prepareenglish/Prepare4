@@ -1,0 +1,22 @@
+{
+    "inject-js-start": "local_extras/js/start.js",
+    "window": {
+        "fullscreen": false,
+        "icon": "local_extras/logo.png1",
+        "title": "Presentation Plus",
+        "height": 768,
+        "toolbar": false,
+        "frame": true,
+        "width": 1024,
+        "resizable": true
+    },
+    "webkit": {
+        "java": false,
+        "page-cache": false,
+        "plugin": false
+    },
+    "name": "Prepare_l4_v2",
+    "inject-js-end": "local_extras/js/end.js",
+    "version": "0.1.0",
+    "main": "index.html"
+}

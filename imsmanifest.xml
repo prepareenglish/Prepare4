@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?><manifest identifier = "lc" version = "1.0.2">
+   <organizations default="Netex">       
+      <organization identifier="Netex" structure="hierarchical">   
+        <title>Shell</title>
+        <item identifier="t_01" identifierref="tema_01" isvisible="true">  
+            <title>Shell</title>
+        </item>         
+      </organization>       
+   </organizations> 
+   <resources>
+      <resource identifier="tema_01" type="webcontent" href="index.html">
+          <file href="index.html"/>
+      </resource>
+   </resources>
+</manifest>

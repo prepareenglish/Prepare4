@@ -1,0 +1,169 @@
+.presentationPlus .netex-audio-player{
+	position: relative;
+}
+.presentationPlus .netex-audio-container{
+	position: relative;
+	height: 1px;
+	width: 1px;
+}
+.presentationPlus .netex-audio-player audio{
+	width: 100%;
+	height: 37px;
+	position: absolute;
+	top: 0;
+    left: 0;
+    vertical-align: bottom;
+}
+.presentationPlus .netex-audio-player object{
+	width: 100%;
+	max-height: 100%;
+	vertical-align: bottom;
+	z-index:-1;
+}
+.presentationPlus .netex-audio-controls{
+	height: 44px;
+	width: 100%;
+	background-color: #1b1b1b;
+	overflow: hidden;
+}
+
+.presentationPlus .netex-audio-controls-container{
+	padding-top: 0;
+}
+.presentationPlus .netex-audio-progress-bar-container{
+	position: relative;
+	height: 8px;
+	background-color: #444;
+}
+.presentationPlus .netex-audio-progress-bar{
+	bottom: 0;
+	left: 0;
+	overflow: visible;
+	position: absolute;
+	width: 0;
+	height: 8px;
+	background-color: #777;
+	cursor:pointer;
+}
+.presentationPlus .netex-audio-progress-bar-inner{
+	position:relative;
+	width: 0;
+	height: 8px;
+	background-color: #db2a3a;
+}
+.presentationPlus .netex-audio-controls-item{
+	margin-left: 12px;
+	width: 29px;
+	height: 27px;
+	background-image: url(sprite_reproductor_audio.T5NRpH65);
+}
+.presentationPlus .netex-audio-button-play-pause-restart{
+	float: left;
+	cursor: pointer;
+	margin-top: 1px;
+}
+.presentationPlus .netex-audio-button-play{
+	background-position: 0 0;
+}
+.presentationPlus .netex-audio-button-play:hover{
+	background-position: 0 0;
+}
+.presentationPlus .netex-audio-button-pause{
+	background-position: -29px 0;
+}
+.presentationPlus .netex-audio-button-pause:hover{
+	background-position: -29px -27px;
+}
+.presentationPlus .netex-audio-button-restart{
+	background-position: 0 0;
+}
+.presentationPlus .netex-audio-button-restart:hover{
+	background-position: 0 0;
+}
+.presentationPlus .netex-audio-volume-control{
+	float: left;
+	cursor: pointer;
+	height: 27px;
+	margin-top: 1px;
+}
+/*.presentationPlus .netex-audio-volume-control:hover .presentationPlus .netex-audio-volume-panel{
+	width: 60px;
+}*/
+.presentationPlus .netex-audio-volume-button{
+	margin-left:0;
+	display: inline-block;
+}
+.presentationPlus .netex-audio-volume-mute{
+	background-position: -87px 0;
+}
+.presentationPlus .netex-audio-volume-mute:hover{
+	background-position: -87px -27px;
+}
+.presentationPlus .netex-audio-volume-small{
+	background-position: -116px 0;
+}
+.presentationPlus .netex-audio-volume-small:hover{
+	background-position: -116px -27px;
+}
+.presentationPlus .netex-audio-volume-medium{
+	background-position: -145px 0;
+}
+.presentationPlus .netex-audio-volume-medium:hover{
+	background-position: -145px -27px;
+}
+.presentationPlus .netex-audio-volume-large{
+	background-position: -174px 0;
+}
+.presentationPlus .netex-audio-volume-large:hover{
+	background-position: -174px -27px;
+}
+.presentationPlus .netex-audio-volume-panel{
+	width: 0;
+	height: 27px;
+	display: inline-block;
+	overflow: hidden;
+}
+.presentationPlus .netex-audio-volume-slider{
+	width: 51px;
+	display: block;
+	overflow: hidden;
+	position: relative;
+	height: 7px;
+	margin-top: 11px;
+	margin-bottom: 9px;
+	background-color: #757575;
+}
+.presentationPlus .netex-audio-volume-slider-foreground{
+	position:absolute;
+	display:block;
+	height: 7px;
+	width: 50%;
+	background-color: #db2a3a;
+}
+.presentationPlus .netex-audio-time-container{
+	float: left;
+	font-family: Arial, Helvetica;
+	font-size: 11px;
+	line-height: 27px;
+	height: 27px;
+	margin-top: 10px;
+}
+.presentationPlus .netex-audio-time-current{
+	color:#ddd;
+	vertical-align: middle;
+}
+.presentationPlus .netex-audio-time-separator, .presentationPlus .netex-audio-time-duration{
+	color: #777;
+	vertical-align: middle;
+}
+
+.touch .presentationPlus .netex-audio-volume-control{
+        
+	display: none;
+}
+
+@media screen and (max-width: 480px) {
+	.presentationPlus .netex-audio-volume-control{
+		display:none;
+	}
+}

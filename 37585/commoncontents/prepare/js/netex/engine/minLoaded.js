@@ -1,0 +1,2 @@
+funcionalityActivity();
+cargaSeguimiento();
